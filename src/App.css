@@ -1,0 +1,90 @@
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #0072ff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.input-group,
+.checkbox-group,
+.generated-password {
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+}
+
+#num {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.generate-btn {
+  padding: 10px 20px;
+  background-color: #0072ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.generated-password {
+  width: 100%;
+  display: flex;
+}
+
+.generated-password input {
+  padding: 9px;
+  outline: none;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.copy-btn {
+  padding: 10px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 90vw;
+    margin-top: 20px;
+  }
+
+  .container h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+}
