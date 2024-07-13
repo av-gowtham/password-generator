@@ -33,7 +33,7 @@ function GeneratePassword() {
     alert("Your password has been copied");
   }
 
-  useEffect(() => handleGenerate, []);
+  useEffect(() => handleGenerate(), []);
 
   return (
     <div className="container">
